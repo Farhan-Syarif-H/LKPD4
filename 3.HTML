@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//--------------------------no1----------------------------------------------------//
+
+
+
+            // let PABP = 70
+            // let MTK = 82
+            // let DPK = 77
+
+            // let nilairata2 = Math.round((PABP+MTK+DPK)/3)
+            
+            // console.log('NILAI PABP = '+PABP)
+            // console.log('NILAI MTK = '+MTK)
+            // console.log('NILAI DPK = '+DPK)
+            // console.log('NILAI RATA2 = ' +nilairata2)
+
+
+
+
+            // if(nilairata2>=80 && nilairata2 <=100){
+            //     console.log('GRADE = A')
+            // } else if (nilairata2>=75 && nilairata2 <80){
+            //      console.log('GRADE = B')
+            // } else if (nilairata2>=65 && nilairata2 <75){
+            //     console.log('GRADE = C')
+            // } else if (nilairata2>=45 && nilairata2 <65){
+            //      console.log('GRADE = D')
+            // } else if (nilairata2 >=0 && nilairata2 <45){
+            //      console.log('GRADE = E')
+            // } else {
+            //     console.log('GRADE = K')
+            // }
+
+
+//-------------------------no2-----------------------------------------------------------------------------//
+
+
+let code = '22505197803'
+let g = code.slice(0,1)
+let dd = code.slice(1,3)
+let mm = parseInt(code.slice(3,5))
+let yyyy = code.slice(5,9)
+let nn = code.slice(9,11)
+
+//----------------------------untuk mengubah value dari variabel mm ----------------------------------------//
+switch(mm){
+        case 1 :
+        mm = 'januari';
+        break;
+        case 2 :
+        mm = 'febuari';
+        break;
+        case 3 :
+        mm = 'maret';
+        break;
+        case 4 :
+        mm = 'april';
+        break;
+        case 5 :
+        mm = 'mei';
+        break;
+        case 6 :
+        mm = 'juni';
+        break;
+        case 7 :
+        mm = 'juli';
+        break;
+        case 8 :
+        mm = 'agustus';
+        break;
+        case 9 :
+        mm = 'september';
+        break;
+        case 10 :
+        mm = 'oktober';
+        break;
+        case 11:
+        mm = 'november';
+        break;
+        case 12:
+        mm = 'desember';
+        break;
+}
+
+
+console.log('nomor golongan = ' + g)
+console.log('tanggal = ' + dd)
+console.log('bulan = ' + mm)
+console.log('tahun = ' + yyyy)
+console.log('kode identitas = ' + nn)
+
+
+
+
+    </script>
+</body>
+</html>
